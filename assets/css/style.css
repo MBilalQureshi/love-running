@@ -22,6 +22,7 @@ h1, h2{
 #logo{
     float:left;
     font-size: 280%;/*% so that the font size remain relative to any screen size*/
+    margin-left: 30px;/*So that logo that is actually Love Running text stops hugging left of page*/
 }
 
 #menu{
@@ -106,4 +107,27 @@ h1, h2{
 
     position: absolute; /* But posotion is fixed relative to entire screen which is default behaviour, The parent of both cover0text and hero-image is 
     hero-outer we will add position:relative to this in css SO THAT child containers can set their absolute postions to it*/
+}
+
+/* Club ethos*/
+
+#club-ethos{
+    height: 600px; /*Same as the hero-image*/
+}
+
+#left-about{
+    padding-top: 30px;
+    width:33%;
+    float:left;
+}
+
+#right-about{
+    padding-top: 30px;
+    width:33%;
+    float:right;
+}
+
+#center:about{
+    width:33%;
+    margin: 0 auto;
 }
