@@ -184,3 +184,12 @@ hr{
     height: 100%; /*Need to add height else image wont show up,common mistake for new devlopers make*/
     border-radius: 50%;
 }
+
+/*Event Times*/
+
+#times{
+    background: url('../images/dublin-city.webp') no-repeat center;
+    background-size: cover; /*Cover things that are inside times id element section*/
+    width: 100%;
+    overflow: hidden;
+}
