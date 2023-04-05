@@ -193,3 +193,23 @@ hr{
     width: 100%;
     overflow: hidden;
 }
+
+#times div{
+    color:#fafafa;
+    background-color: rgba(0,0,0,.6);
+    width:20%; /*5X20=100 So very panel or div we take 20% of screen width*/
+    height: 300px;
+    float: left; /*So all divs or panels dispaly horizontally in front of each other*/
+    padding: 30px 0 0 10px;/*top and left*/
+    text-align: center;
+
+    /*Now to cleate white borders arouns panels(divs)*/
+    /*“border-box” tells the browser to include the border width in the total size of this element, so now  it is 20% width, including the border*/
+    border: 2px solid white;
+    box-sizing: border-box;
+    
+}
+
+#times h2{
+    color:#fafafa;
+}
