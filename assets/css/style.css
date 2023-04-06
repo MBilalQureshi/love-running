@@ -245,3 +245,40 @@ footer{
 #photos > img{
     width:100%; /*Gives width so that all images allign with each other*/
 }
+
+/* Media Quries */
+
+/* For large to medium screens size from 1200px wide and below */
+@media screen and (max-width: 1200px){
+    #club-ethos{
+        width: 65%; /*This width activates once site width reaches 1200px*/
+        height: 1200px; /*Site height incraese to accommodate the vertical layout and also maintain the site structural ratios once site width reaches 1200px*/
+        margin: 0 auto; /*To center our content (WE HAVE ALREADY LERNED THAT margin : 0 auto helps to center content) */
+    }
+
+    #welcome{
+        padding: 30px 0;/*We change the padding to keep the balance between the welcome message and the main image above*/
+        margin: 0; /* margin to 0 to additionally clean up the vertical gap*/
+    }
+
+    #left-about, #right-about{
+        /* We’ll set the width of each to 100% of the parent section and float the content to the left.
+        And we’ll override any default desktop-level padding by setting it to 0. */
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about{
+        /*push the center-about image below the text content.
+To do this we set clear to "both".
+And then we set the width to 100%, float it to the left and again clear out any padding set at the desktop level*/
+        clear:both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    hr{
+        display: none;
+    }
+}
