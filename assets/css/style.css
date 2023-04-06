@@ -282,3 +282,15 @@ And then we set the width to 100%, float it to the left and again clear out any 
         display: none;
     }
 }
+
+/* For medium Screen sizes from 950px wide and down */
+@media screen and (max-width:950px){
+    #menu{
+        clear: left; /* all the menu moves down instead of breaking one by one as its left side get cleared now*/
+        float: left; /* The menu items float to the left side*/
+        margin-left: 30px; /*So that menu doesnt attach to the left edge of screen and navigation elements*/
+        margin-bottom: 20px; /* to give some space below menu*/
+        line-height: 25px; /*Same case as above somehow*/
+
+    }
+}
