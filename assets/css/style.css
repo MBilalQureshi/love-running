@@ -233,3 +233,15 @@ footer{
     padding: 5%;
     color: #3a3a3a;
 }
+
+/* Gallery */
+#photos{
+    clear:both; /*Now the photos are displayed below the header*/
+    line-height: 0;/*To remove gaps between images*/
+    column-count: 4;/*So that total of 4 images appear in a line*/
+    column-gap: 0;    
+}
+
+#photos > img{
+    width:100%; /*Gives width so that all images allign with each other*/
+}
