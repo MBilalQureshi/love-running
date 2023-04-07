@@ -293,4 +293,28 @@ And then we set the width to 100%, float it to the left and again clear out any 
         line-height: 25px; /*Same case as above somehow*/
 
     }
+
+     #cover-text{
+        left: 0; /*Float left would not work here*/
+     }
+
+     #club-ethos{
+        width: 90%; /*5% 5% will be left on both sides of the screen*/
+        height: 1200px;
+        margin: 0 auto; /*To center our club ethos div or content*/
+     }
+
+     .left-about-heading, .right-about-heading{
+        width: inherit; /*100% that is inherited from tablets media query of #left-about, #right-about*/
+     }
+
+     .left-about-heading h2, .right-about-heading h2{
+        width: 100%;
+        text-align: center; /*Centering headings*/
+     }
+
+     .left-about-heading p, .right-about-heading p{
+        text-align: center;
+        padding:0 20px;
+     }
 }
