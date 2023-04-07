@@ -278,6 +278,15 @@ And then we set the width to 100%, float it to the left and again clear out any 
         float: left;
         padding: 0;
     }
+
+    /* times section targeting below for mobile + tablet */
+    #times > div{
+        width: 100%; /*From 20 % to 100% to fill screen width*/
+        clear:both; /*Stacking time divs vertacally by setting clear to both*/
+        height:150px;/*We set the height of each div to 150px to again  maintain the sizing ratios of the main structural page elements.*/
+        padding:0;/*We also set the padding to 0 to  clear out any unwanted desktop-level padding.*/
+    }
+    /* times section targeting above for mobile + tablet */
     hr{
         display: none;
     }
