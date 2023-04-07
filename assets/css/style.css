@@ -326,4 +326,16 @@ And then we set the width to 100%, float it to the left and again clear out any 
         text-align: center;
         padding:0 20px;
      }
+
+     /*Photos*/
+     #photos{
+        column-count: 3;
+     }
+}
+
+@media screen and (max-width:800px){
+    /*Photos*/
+    #photos{
+        column-count: 2;
+     }
 }
